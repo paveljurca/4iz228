@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <title>výuka</title>
+    <meta content="xjurp20" name="author" />
+    <meta content="redesign,webovky,xjurp20" name="keywords" />
+    <!--
+      POZADÍ STRÁNKY by http://www.atlemo.com/
+      http://subtlepatterns.com/stardust/
+    -->
+    <link href="a/css/style.css" rel="stylesheet" media="screen" />
+    <link href="a/css/print.css" rel="stylesheet" media="print" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="head">
+        <h2>REDESIGN&nbsp;|&nbsp;<a title="4iz228" href="http://webovky.vse.cz">webovky.vse.cz</a></h2>
+      </div>
+      <div id="menu">
+        <form action="#" method="get" onsubmit="">
+          <input type="text" placeholder="HLEDEJ" value="HLEDEJ" />
+          <input type="submit" value="" />
+        </form>
+        <ul id="nav">
+          <li>
+            <div onmouseover="show(0,this.children[1],event)" onmouseout="hide(1,this.children[1],event)">
+              <a href="index.html" class="selected">výuka</a>
+              <ul class="sub">
+                <li><a href="index.html#prednaska">Přednáška</a></li>
+                <li><a href="index.html#cviceni">Cvičení</a></li>
+                <li><a href="index.html#literatura">Literatura</a></li>
+              </ul>
+            </div>
+          </li>          
+          <li>
+            <div onmouseover="show(0,this.children[1],event)" onmouseout="hide(1,this.children[1],event)">
+              <a href="pozadavky.html">požadavky</a>
+              <ul class="sub">
+                <li><a href="pozadavky.html#static">Statická prezentace</a></li>
+                <li><a href="pozadavky.html#dynamic">Webová aplikace</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div onmouseover="show(0,this.children[1],event)" onmouseout="hide(1,this.children[1],event)">
+              <a href="html.html#html">html</a>
+              <ul class="sub">
+                <li><a href="html.html#css">CSS</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div onmouseover="show(0,this.children[1],event)" onmouseout="hide(1,this.children[1],event)">
+              <a href="php.html#php">php</a>
+              <ul class="sub">
+                <li><a href="php.html#mysql">MySQL</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="inkognito.html">inkognito</a></li>
+        </ul>
+      </div>
+      <div id="bdy">
+        <div id="frame1">
+          <div id="content">
+            <h1>Tvorba webových stránek a aplikací</h1>
+            <blockquote cite="http://webovky.vse.cz/vyuka">
+              Cílem cvičení je především praktické zvládnutí technologií,
+              se kterými se posluchači seznámí v přednáškách, především jazyků
+              <em>HTML</em>, <em>CSS</em>, <em>PHP</em> a částečně <em>Javascript</em>.
+            </blockquote>
+            <p>více informací v <a href="http://isis.vse.cz/katalog/syllabus.pl?predmet=100254">syllabu</a></p>
+          </div>
+          <div id="twitter">
+            <a href="https://twitter.com/iz228">
+              <img src="http://g.twimg.com/Twitter_logo_blue.png" width="75" height="50" alt="twitter logo" title="@iz228" />
+            </a>
+          </div>
+        </div>
+        <div id="frame2">
+          <table>
+            <caption><a name="prednaska">Přednáška</a></caption>
+            <tr><th>den</th><th>místnost</th><th>čas</th></tr>
+            <tr><td>Pátek</td><td>RB212</td><td>12:45-14:15</td></tr>
+          </table>
+          <table>
+            <caption><a name="cviceni">Cvičení</a></caption>
+            <thead>
+              <tr><th>den</th><th>místnost</th><th>čas</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Středa</td><td>SB105</td><td>16:15-17:45</td></tr>
+              <tr><td>Pátek</td><td>SB105</td><td>07:30-09:00</td></tr>
+              <tr><td>Pátek</td><td>SB105</td><td>09:15-10:45</td></tr>
+              <tr><td>Pátek</td><td>SB104</td><td>11:00-12:30</td></tr>
+            </tbody>
+          </table>                  
+          <table>
+            <caption><a name="literatura">Literatura</a></caption>
+            <thead>
+              <tr><th>autor</th><th>kniha</th><th>ISBN</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Pilgrim, M.</td><td><a href="http://kniha.html5.cz/">HTML5: Up and Running</a></td><td>978-0-596-80602-6</td></tr>
+              <tr><td>Kosek, J.</td><td><a href="http://htmlguru.cz/">HTML5 - tvorba dokonalých WWW stránek</a></td><td>N/A</td></tr>
+              <tr><td>OWASP</td><td><a href="http://prdownloads.sourceforge.net/owasp/OWASPGuide2.0.1.pdf?download">Guide to Building Secure Web Applications and Web Services</a></td><td>N/A</td></tr>
+            </tbody>
+          </table>
+          <br />
+          <br />
+        </div>
+      </div>
+      <script src="a/js/hover.js" async></script>
+    </div>
+  </body>
+</html>

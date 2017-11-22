@@ -1,0 +1,26 @@
+@import url("style.css") screen;
+@media print {
+  #container {
+    width: 100%;
+    margin: 0;
+  }
+  
+  #menu {
+    display: none;
+  }
+  
+  #twitter {
+    display: none;
+  }
+  
+  img {
+    visibility: hidden;
+  }
+  
+  caption {
+    margin: 1em 0;
+    font-weight: bolder;
+    text-align: left;
+    text-decoration: underline;
+  }
+}

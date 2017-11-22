@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <title>požadavky</title>
+    <meta content="xjurp20" name="author" />
+    <meta content="redesign,webovky,xjurp20" name="keywords" />
+    <!--
+      POZADÍ STRÁNKY by http://www.atlemo.com/
+      http://subtlepatterns.com/stardust/
+    -->
+    <link href="a/css/style.css" rel="stylesheet" media="screen" />
+    <link href="a/css/print.css" rel="stylesheet" media="print" />
+  </head>
+  <body>
+    <div id="container">
+      <div id="head">
+        <h2>REDESIGN&nbsp;|&nbsp;<a title="4iz228" href="http://webovky.vse.cz">webovky.vse.cz</a></h2>
+      </div>
+      <div id="menu">
+        <form action="#" method="get" onsubmit="">
+          <input type="text" placeholder="HLEDEJ" value="HLEDEJ" />
+          <input type="submit" value="" />
+        </form>
+        <ul id="nav">
+          <li>
+            <div onmouseover="show(0,this.children[1],event)" onmouseout="hide(1,this.children[1],event)">
+              <a href="index.html">výuka</a>
+              <ul class="sub">
+                <li><a href="index.html#prednaska">Přednáška</a></li>
+                <li><a href="index.html#cviceni">Cvičení</a></li>
+                <li><a href="index.html#literatura">Literatura</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div onmouseover="show(0,this.children[1],event)" onmouseout="hide(1,this.children[1],event)">
+              <a href="pozadavky.html" class="selected">požadavky</a>
+              <ul class="sub">
+                <li><a href="pozadavky.html#static">Statická prezentace</a></li>
+                <li><a href="pozadavky.html#dynamic">Webová aplikace</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div onmouseover="show(0,this.children[1],event)" onmouseout="hide(1,this.children[1],event)">
+              <a href="html.html#html">html</a>
+              <ul class="sub">
+                <li><a href="html.html#css">CSS</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div onmouseover="show(0,this.children[1],event)" onmouseout="hide(1,this.children[1],event)">
+              <a href="php.html#php">php</a>
+              <ul class="sub">
+                <li><a href="php.html#mysql">MySQL</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="inkognito.html">inkognito</a></li>
+        </ul>
+      </div>
+      <div id="bdy">
+        <div id="frame1">
+          <div id="content">
+            <h1>Požadavky & hodnocení</h1>
+            <blockquote cite="http://webovky.vse.cz/pozadavky-hodnoceni">
+              <strong>Docházka</strong> na přednášky ani cvičení <strong>není povinná</strong>,
+              je ale nezbytně nutné, abyste si osvojili probíranou látku a <strong>splnili</strong>
+              níže uvedené <strong>podmínky</strong>:
+            </blockquote>
+            <ul class="pozadavky">
+              <li>Vytvoření statických HTML stránek</li>
+              <li>Alespoň s 50% úspěšností napsat test ověřující znalosti získané během kurzu</li>
+              <li>Vytvoření webové aplikace implementované v jazyce PHP</li>
+            </ul>            
+          </div>
+          <div id="twitter">
+            <a href="https://twitter.com/iz228">
+              <img src="http://g.twimg.com/Twitter_logo_blue.png" width="75" height="50" alt="twitter logo" title="@iz228" />
+            </a>
+          </div>
+        </div>
+        <div id="frame2">
+         <table class="req">
+            <caption><a name="static">Statická prezentace</a></caption>
+            <thead>
+              <tr><th>požadavek</th><th>váha</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Validní dle HTML 1.0 Strict, HTML 4.01 Strict nebo HTML5</td><td>15</td></tr>
+              <tr><td>Sémantické značkování v rámci možností HTML</td><td>5</td></tr>
+              <tr><td>CSS a Javascript oddělen od obsahu stránek</td><td>5</td></tr>
+              <tr><td>Vícesloupcový, beztabulkový layout</td><td>5</td></tr>
+              <tr><td>Přizpůsobená verze pro tisk</td><td>5</td></tr>
+              <tr><td>Jasná a srozumitelná identifikace webu na všech jeho stránkách</td><td>5</td></tr>
+              <tr><td>Neduplikování URL (stejný obsah nebude dostupný pod různými adresami)</td><td>5</td></tr>
+              <tr><td>Aktuální položka menu odlišena od ostatních</td><td>5</td></tr>
+              <tr><td>Podtržené či jinak jednoznačně odlišené odkazy</td><td>5</td></tr>
+              <tr><td>Vhodně zvolené písmo a jeho dostatečná velikost</td><td>5</td></tr>
+            </tbody>
+          </table>
+         <table class="req">
+            <caption><a name="dynamic">Webová aplikace</a></caption>
+            <thead>
+              <tr><th>požadavek</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Vhodné zadání - je ho potřeba nechat během semestru schválit cvičícím</td></tr>
+              <tr><td>Více tabulek v databázi</td></tr>
+              <tr><td>Webové stránky generované aplikací budou plně validní</td></tr>
+              <tr><td>Aplikace poběží na serveru přístupného ze sítě Internet</td></tr>
+              <tr><td>V rámci aplikace budete mít ošetřené a kontrolované vstupy dat od uživatele</td></tr>
+              <tr><td>Aplikaci je nutné <em>obhájit před cvičícím</em></td></tr>
+            </tbody>
+          </table>          
+          <br />
+          <br />
+        </div>
+      </div>
+      <script src="a/js/hover.js" async></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  padding: 0;
+  /*
+    POZADÍ STRÁNKY by http://www.atlemo.com/
+    http://subtlepatterns.com/stardust/
+  */
+  background: url('../dsg/stardust.png') repeat;
+  color: #2f2f2f;
+}
+
+#container {
+  width: 800px;
+  margin: 25px auto;
+  padding: 1em;
+  background: white;
+  font: normal normal 1em sans-serif;
+}
+
+#head {
+  position: relative;
+  width: 70%;
+  height: 100px;
+  padding: 20px 15%;
+  margin: 0 auto;
+  border: 5px solid black;
+}
+
+#head a {
+  color: #686868;
+}
+
+#menu {
+  position: relative;
+  width: 100%;
+  height: 120px;
+  border: 5px solid black;
+  border-top: none;
+}
+
+#bdy {
+  width: 100%;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+  height: 450px;
+}
+
+#frame1 {
+  width: 90%;
+  border: 5px solid black;
+  margin: 0 auto;
+  height: 200px;
+}
+
+#frame2 {
+  width: 86%;
+  border: 5px solid black;
+  margin: 10px auto;
+  height: 300px;
+  background-color: white;
+  padding: 1em;
+  overflow-y: scroll;
+}
+
+#content {
+  float: left;
+  width: 70%;
+  height: 100%;
+  overflow: hidden;
+  font-size: .8em;
+  padding: 1em;
+}
+
+#twitter {
+  float: left;
+  height: 100%;
+  border-left: 5px solid black;
+}
+
+#twitter img {
+  margin-bottom: -105px;
+  margin-left: 55px;
+}
+
+#twitter img:hover {
+  padding-bottom: 10px;
+}
+
+input[type=text] {
+  width: 12%;
+  height: 25px;
+  position: absolute;
+  left: auto;
+  right: 60px;
+  top: 20px;
+  padding-left: 7px;
+  border: 2px solid black;
+}
+
+input[type=submit] {
+  width: 31px;
+  height: 30px;
+  position: absolute;
+  left: auto;
+  right: 25px;
+  top: 20px;
+  background: url('../dsg/lupa.png') no-repeat center;
+}
+
+#menu #nav {
+  position: absolute;
+  top: auto;
+  bottom: -3px;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+  list-style-type: none;
+}
+
+#menu #nav>li {
+  margin-right: 15px;
+  display: inline-block;
+  border: 3px solid black;
+  width: 16%;
+  text-align: center;
+  font-style: italic;
+}
+
+#menu #nav li a {
+  display: block;
+  padding: .6em 0;
+  font-size: 1.2em;
+  font-weight: bolder;
+  color: black;
+  background-color: whitesmoke;
+}
+
+#menu #nav li a.selected {
+  color: white;
+  background-color: #2f2f2f;
+}
+
+#menu div {
+  position: relative;
+}
+
+#menu div:hover .sub {
+  display: block;
+} 
+
+#menu .sub {
+  width: 100%;
+  position: absolute;
+  display: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  font-size: .7em;
+  font-weight: normal;
+  border: 1px solid black;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+  color: dodgerblue;
+}
+
+caption {
+  text-align: left;
+  font-weight: bolder;
+  margin: 1em 0;
+  padding: 1em;
+  color: orange;
+  border: 1px dotted black;
+}
+
+caption a {
+  color: orange;
+}
+
+td {
+  text-align: center;
+  padding: .5em;
+}
+
+table.req td {
+  text-align: left;
+}
+
+tr.upcoming td {
+  font-size: 1.4em;
+  font-weight: bolder;
+  
+}
+
+tr.done td:first-child {
+  text-decoration: line-through;
+}
+
+blockquote {
+  margin: 1.2em 0;
+  padding-left: .5em;
+  border-left: 2px solid #989898;
+  font-size: 1em;
+}
+
+blockquote em {
+  font-size: 1.2em;
+  font-weight: bolder;
+  color: brown;
+}
+
+blockquote code {
+  font-size: 1.4em;
+  background-color: #c2c2c2;
+}
+
+ul.pozadavky {
+  margin: 0;
+  padding-left: 2em;
+}
+
+ul.pozadavky li {
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+section blockquote {
+  margin-left: 1em;
+}
+
+p.heading,p.heading a {
+  font-weight: bolder;
+  color: orange;
+}
+
+

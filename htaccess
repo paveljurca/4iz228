@@ -1,0 +1,2 @@
+DirectoryIndex index.html index.php
+ErrorDocument 404 "http://eso.vse.cz/~xjurp20/404.html"
